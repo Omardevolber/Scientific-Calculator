@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to left, #3498db, #e91e63);
+}
+
+.calculator {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    width: 655px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    width: 97%;
+    height: 50px;
+    background-color: #e6c046;
+    border: none;
+    text-align: right;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: #000 solid 3px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 18px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #9ed1f3;
+    transition: transform 0.2s ease, font-size 0.2s ease;
+}
+
+.button:active {
+    background-color: #ccc;
+}
+.button:hover{
+    transform: scale(1.2);
+    font-size: 21px;
+}
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.wide {
+    width: 200px;
+    background-color: #3498db;
+    font-weight:bolder;
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:linear-gradient(to left, #3498db, #e91e63);
+    }
+    
+    .calculator {
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #fff;
+        width: 655px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .display {
+        width: 97%;
+        height: 50px;
+        background-color: #e6c046;
+        border: none;
+        text-align: right;
+        font-size: 24px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: #000 solid 3px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .button {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        font-size: 18px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #9ed1f3;
+        transition: transform 0.2s ease, font-size 0.2s ease;
+    }
+    
+    .button:active {
+        background-color: #ccc;
+    }
+    .button:hover{
+        transform: scale(1.2);
+        font-size: 21px;
+    }
+    .buttons-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    
+    .wide {
+        width: 200px;
+        background-color: #3498db;
+        font-weight:bolder;
+    }
+     
+    
+    
+    
+}
+
+@media only screen and (max-width: 1366px) {
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:linear-gradient(to left, #3498db, #e91e63);
+    }
+    
+    .calculator {
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #fff;
+        width: 655px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .display {
+        width: 97%;
+        height: 50px;
+        background-color: #e6c046;
+        border: none;
+        text-align: right;
+        font-size: 24px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: #000 solid 3px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .button {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        font-size: 18px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #9ed1f3;
+        transition: transform 0.2s ease, font-size 0.2s ease;
+    }
+    
+    .button:active {
+        background-color: #ccc;
+    }
+    .button:hover{
+        transform: scale(1.2);
+        font-size: 21px;
+    }
+    .buttons-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    
+    .wide {
+        width: 200px;
+        background-color: #3498db;
+        font-weight:bolder;
+    }
+        
+    
+}
