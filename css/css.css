@@ -63,8 +63,9 @@ body {
 }
 
 .footerbody {
-    margin-top: -20px;
+    margin-top: 500px;
     text-align: center;
+    margin-left: -400px
     font-size: 24px;
 
 }
@@ -212,10 +213,10 @@ body {
     }
 
      .footerbody {
-        margin-top: -20px;
+        margin-top: 500px;
         text-align: center;
+        margin-left: -400px
         font-size: 24px;
-    
     }
     
     .footerbody article {
